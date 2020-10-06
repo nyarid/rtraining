@@ -43,7 +43,7 @@ x <- rnorm(3)
 
 #----------- 1.2 check vector types and transform
 
-# Check the type of the objects created in the first step with any of the following functions: class / typeof / is.character / is.numeric / is.logical 
+# Check the type of the objects created in the first step with any of the following functions: class / typeof / is.character / is.numeric / is.logical
 
 
 # Transform the numeric vector into a character one and check its type
@@ -202,16 +202,14 @@ if (is.numeric(x)) {
 
 # Create a for cycle where we take the natural log of each element in the y vector
 
-y <- seq(1, 10000000, 1)
+y <- seq(1, 1000, 1)
 result <- c()
 
 for (variable in vector) {
-  
+
 }
 
 
 # Do the same using the lapply function
 
 lapply(list, function)
-
-
